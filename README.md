@@ -1,4 +1,4 @@
-Employee Application Management System
+# Employee Application Management System
 
 🔍 About the Project
 
@@ -6,11 +6,11 @@ The Employee Record Management System is a dynamic web application developed usi
 
 It is designed following enterprise-level development practices to ensure scalability, maintainability, and clean code organization.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
-🎯 Core Functionalities
+
+## 🎯 Core Functionalities
 
 1)Add new employee details
 
@@ -24,9 +24,9 @@ It is designed following enterprise-level development practices to ensure scalab
 
 6)Data persistence using a relational database
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🏛️ Design Approach
+
+## 🏛️ Design Approach
 
 
 The application is structured using a multi-layered architecture to maintain separation of responsibilities:
@@ -43,19 +43,23 @@ Handles communication with the database using Spring Data JPA.
 ›Database Layer
 Stores employee-related information securely in MySQL.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Architecture Flow:
+
+## Architecture Flow:
 
 Client Request → Controller → Service → Repository → MySQL Database
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-📦 Application Components
 
 
-🔹 Employee Model
+
+ ##  📦 Application Components
+
+
+
+
+
+###  🔹 Employee Model
 
 Represents the employee entity and maps it to a database table using JPA.
 Includes attributes such as:
@@ -70,9 +74,9 @@ Includes attributes such as:
 
 ›Department
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🔹 Controller Component
+
+### 🔹 Controller Component
 
 Responsible for:
 
@@ -85,19 +89,19 @@ Responsible for:
 ›Processing delete operations
 
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🔹 Service Component
+
+### 🔹 Service Component
 
 ›Implements business rules and acts as an intermediary between controller and repository.
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🔹 Repository Component
+
+### 🔹 Repository Component
 
 ›Leverages Spring Data JPA to perform CRUD operations without manually writing SQL queries.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🎨 Frontend Design:
+
+## 🎨 Frontend Design:
 
 ›JSP used for rendering dynamic content
 
@@ -107,11 +111,11 @@ Responsible for:
 
 ›Form validation and clean navigation flow
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-⚙️ Technology Stack
 
-Backend Frameworks:
+## ⚙️ Technology Stack
+
+### Backend Frameworks:
 
 ›Java
 
@@ -121,9 +125,9 @@ Backend Frameworks:
 
 ›Spring Data JPA
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Frontend Technologies:
+
+### Frontend Technologies:
 
 ›JSP
 
@@ -137,8 +141,8 @@ Frontend Technologies:
 
 ›MySQL
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Build & Dependency Management:
+
+### Build & Dependency Management:
 
 ›Maven
 
@@ -146,24 +150,24 @@ Build & Dependency Management:
 
 ›Git & GitHub
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-▶️ Running the Application
 
-Clone the repository
+## ▶️ Running the Application
 
-Import the project into Eclipse / STS
+»Clone the repository
 
-Configure database details in application.properties
+»Import the project into Eclipse / STS
 
-Run the Spring Boot application
+»Configure database details in application.properties
 
-Access the application using:
+»Run the Spring Boot application
+
+»Access the application using:
 
 http://localhost:1234/employees
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-FINAL OUTPUT:
+
+## FINAL OUTPUT:
 
 <img width="1904" height="834" alt="image" src="https://github.com/user-attachments/assets/f80c9b3e-2aff-4636-bb4f-253fa6b49291" />
 
